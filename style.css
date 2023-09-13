@@ -1,0 +1,126 @@
+body {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/094/648/original/forest-2.jpg?1692986301);
+  background-size: cover;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h1,
+h3 {
+  font-family: "Roboto", sans-serif;
+}
+
+form {
+  text-align: center;
+  padding: 15px;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+input[type="text"] {
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+input[type="submit"],
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  background: #cdd6bc;
+  color: #435334;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+button:hover {
+  background: #435334;
+  color: #cedebd;
+}
+
+.temperature-now {
+  font-size: 72px;
+  text-align: center;
+}
+
+.value-now {
+  font-size: 40px !important;
+  margin-top: 15px;
+}
+
+.current-weather {
+  margin: 30px;
+  padding: 15px;
+  color: #313d33 !important;
+}
+
+.current-icon {
+  display: block;
+  margin: 0 auto;
+  font-size: 96px;
+}
+
+.location {
+  margin-top: 30px;
+  color: #313d33 !important;
+}
+
+.container {
+  padding-right: 25px;
+  padding-left: 25px;
+  margin: 43px auto;
+  border: solid rgba(241, 238, 233) 2px;
+  border-radius: 8px;
+  background: rgba(241, 238, 233, 0.5);
+}
+
+.forecast {
+  padding: 20px;
+}
+
+.card {
+  text-align: center;
+  border: transparent !important;
+  background: transparent !important;
+  color: #a7b99e;
+  font-family: "Roboto", sans-serif;
+  color: #313d33 !important;
+}
+
+.card:hover {
+  background: rgba(213, 210, 195, 0.5) !important;
+  cursor: pointer;
+}
+
+.forecast-high {
+  font-weight: bold;
+}
+
+.forecast-icon {
+  font-size: 42px;
+}
+
+.credits {
+  text-align: center;
+  color: #313d33;
+  font-size: 15px;
+}
+
+a {
+  color: #313d33 !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  text-decoration: underline !important;
+}
