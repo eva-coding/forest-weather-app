@@ -59,7 +59,6 @@ button:hover {
 
 .value-now {
   font-size: 40px !important;
-  margin-top: 15px;
 }
 
 .current-weather {
@@ -68,10 +67,11 @@ button:hover {
   color: #313d33 !important;
 }
 
-.current-icon {
+.icon {
   display: block;
   margin: 0 auto;
-  font-size: 96px;
+  width: 150px;
+  height: auto;
 }
 
 .location {
