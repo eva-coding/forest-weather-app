@@ -12,7 +12,7 @@ h3 {
   font-family: "Roboto", sans-serif;
 }
 
-h4 {
+h4:first-letter {
   text-transform: capitalize;
 }
 
