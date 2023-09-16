@@ -88,32 +88,6 @@ button:hover {
   background: rgba(241, 238, 233, 0.5);
 }
 
-.forecast {
-  padding: 20px;
-}
-
-.card {
-  text-align: center;
-  border: transparent !important;
-  background: transparent !important;
-  color: #a7b99e;
-  font-family: "Roboto", sans-serif;
-  color: #313d33 !important;
-}
-
-.card:hover {
-  background: rgba(213, 210, 195, 0.5) !important;
-  cursor: pointer;
-}
-
-.forecast-high {
-  font-weight: bold;
-}
-
-.forecast-icon {
-  font-size: 42px;
-}
-
 .credits {
   text-align: center;
   color: #313d33;
@@ -127,4 +101,5 @@ a {
 
 a:hover {
   text-decoration: underline !important;
+  cursor: pointer;
 }
