@@ -51,7 +51,7 @@ function displayForecast(response) {
             forecastDay.condition.icon
           }.png",
           alt=""
-          width="42"
+          width="60"
         />
         <div class="weather-forecast-temperatures">
           <span class="weather-forecast-temperature-max"> ${Math.round(
@@ -135,7 +135,7 @@ function showTemperature(response) {
   humidityElement.innerHTML = response.data.temperature.humidity;
 
   let windElement = document.querySelector("#wind");
-  windElement.innerHTML = response.data.wind.speed;
+  windElement.innerHTML = Math.round(response.data.wind.speed);
 
   let iconElement = document.querySelector("#icon");
   iconElement.setAttribute(

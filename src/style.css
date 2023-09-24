@@ -85,19 +85,18 @@ button:hover {
   margin: 43px auto;
   border: solid rgba(241, 238, 233) 2px;
   border-radius: 8px;
-  background: rgba(241, 238, 233, 0.5);
+  background: rgba(241, 238, 233, 0.7);
+  font-family: "Roboto", sans-serif;
 }
 
 .weather-forecast {
-  margin-top: 20px;
+  margin-top: 50px;
   text-align: center;
-  font-family: "Roboto", sans-serif;
   font-size: 20px;
+  padding: 20px;
+  color: #313d33;
 }
 
-.weather-forecast-date {
-  opacity: 0.8;
-}
 .weather-forecast-temperature-min {
   opacity: 0.8;
 }
